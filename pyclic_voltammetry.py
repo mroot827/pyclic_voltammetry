@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 cv_txt = 'YOUR .TXT FILE HERE'
 
-def pyclic_voltammetry():
+def pyclic_voltammetry(cv_txt):
 
   #loading in CV datapoints from file:
   with open(cv_txt, 'r') as file:
